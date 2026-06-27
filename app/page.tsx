@@ -3,7 +3,6 @@ import Controls from "@/components/Controls";
 import Gallery from "@/components/Gallery";
 import Header from "@/components/Header";
 import PromptInput from "@/components/PromptInput";
-import { Images } from "lucide-react";
 import { useState } from "react";
 
 export default function Home() {
@@ -15,7 +14,7 @@ export default function Home() {
   const [loading, setLoading] = useState(false)
   const [loadingSlots, setLoadingSlots] = useState(0)
 
-  const [Images, setImages] = useState<string[]>([])
+  const [images, setImages] = useState<string[]>([])
 
   const handleSubmit = async (e:any) => {
     e.preventDefault()
@@ -54,7 +53,7 @@ export default function Home() {
           </form>
 
           <Gallery 
-            images = {Images}
+            images = {images}
             loading = {loading}
             loadingSlots = {loadingSlots}
           />
