@@ -13,8 +13,7 @@ const Gallery = ({images, loading, loadingSlots}:any) => {
             ))}
             {images.map((img: string, i: number) => (      
             <div className='relative group rounded-md border overflow-hidden'>
-                <Image src={"/next.svg"} alt="sample img" height={100} width={100}
-                className='w-full h-full object-cover'/>
+                <img src={img} className='w-full h-full object-cover'/>
                 <div className='absolute inset-0 bg-linear-to-t from-black/70 opacity-0 group-hover:opacity-100 flex items-end justify-end p-4'>
                     <button className='h-10 w-10 bg-white/30 rounded-full text-white flex items-center justify-center cursor-pointer'><FaDownload /></button>
                 </div>
