@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
 const ratioMap:Record<string, {width: number, height:number}>={
     "1:1":{width:1024, height:1024},
     "16:9":{width:1024, height:576},
-    "9:16":{width:576, height:1024}
+    "9:16":{width:576, height:1024},
 }
 
 export async function POST(req:Request) {
@@ -58,6 +58,6 @@ export async function POST(req:Request) {
         }
         return NextResponse.json({images})
     } catch (error) {
-        
+        return NextResponse.json({error: "generation failed"}, {status : 500})
     }
 }
