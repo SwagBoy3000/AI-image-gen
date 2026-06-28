@@ -1,8 +1,8 @@
 # 🎨 AI Image Generator
 
-    > "Generate stunning AI-powered images from text prompts using state-of-the-art models. Choose your model, aspect ratio, and watch your imagination come to life."
+    Generate stunning AI-powered images from text prompts using state-of-the-art models. Choose your model, aspect ratio, and watch your imagination come to life.
 
-Highlights
+# Highlights
 
     Multiple AI Models — Choose from FLUX, SDXL, Stable Diffusion, and OpenJourney
 
@@ -14,7 +14,7 @@ Highlights
 
     One-click Download — Save your favorite creations locally
 
-ℹ️ Overview
+# ℹ️ Overview
 
 AI Image Generator is a full-stack web application that leverages the Hugging Face Inference API to generate AI images from text prompts. Built with Next.js 15 and TypeScript, it provides a seamless interface for creating unique visuals using various open-source models.
 
@@ -26,21 +26,21 @@ Quick Start
 bash
 
 # Clone the repository
-git clone https://github.com/SwagBoy3000/AI-image-gen.git
-cd AI-image-gen
+    git clone https://github.com/SwagBoy3000/AI-image-gen.git
+    cd AI-image-gen
 
 # Install dependencies
-npm install
+    npm install
 
 # Set up environment variables
-# Create a .env.local file with your Hugging Face API key:
-# API_KEY=your_huggingface_api_key
+    Create a .env.local file with your Hugging Face API key:
+    API_KEY=your_huggingface_api_key
 
 # Run the development server
-npm run dev
+    npm run dev
 
 Open http://localhost:3000 to start generating images!
-Features
+# Features
 🤖 Multiple AI Models
 
     FLUX.1-dev — High-quality, detailed generations
@@ -77,7 +77,7 @@ Features
 
     Error Handling — Graceful failures with user-friendly messages
 
-⬇️ Installation
+# ⬇️ Installation
 Requirements
 
     Node.js 18.0 or higher
