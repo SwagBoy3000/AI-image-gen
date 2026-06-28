@@ -96,40 +96,40 @@ Development
 bash
 
 # Install dependencies
-npm install
+    npm install
 
 # Start development server
-npm run dev
+    npm run dev
 
-Production Build
-bash
+# Production Build
+    bash
 
 # Build the application
-npm run build
+    npm run build
 
 # Start production server
-npm start
+    npm start
 
 📁 Project Structure
-text
-
-AI-image-gen/
-├── app/
-│   ├── api/
-│   │   └── generate/
-│   │       └── route.ts      # Hugging Face API integration
-│   ├── layout.tsx            # Root layout with metadata
-│   ├── page.tsx              # Main application page
-│   └── globals.css           # Global styles
-├── components/
-│   ├── Controls.tsx          # Model, count, and ratio controls
-│   ├── Gallery.tsx           # Image display grid
-│   ├── Header.tsx            # App header
-│   └── PromptInput.tsx       # Text prompt input
-├── lib/
-│   └── prompts.ts            # Default prompt suggestions
-├── public/                   # Static assets
-└── package.json
+    text
+    
+    AI-image-gen/
+    ├── app/
+    │   ├── api/
+    │   │   └── generate/
+    │   │       └── route.ts      # Hugging Face API integration
+    │   ├── layout.tsx            # Root layout with metadata
+    │   ├── page.tsx              # Main application page
+    │   └── globals.css           # Global styles
+    ├── components/
+    │   ├── Controls.tsx          # Model, count, and ratio controls
+    │   ├── Gallery.tsx           # Image display grid
+    │   ├── Header.tsx            # App header
+    │   └── PromptInput.tsx       # Text prompt input
+    ├── lib/
+    │   └── prompts.ts            # Default prompt suggestions
+    ├── public/                   # Static assets
+    └── package.json
 
 🛠️ Tech Stack
 Technology	Purpose
