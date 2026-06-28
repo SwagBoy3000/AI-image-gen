@@ -1,6 +1,6 @@
-🎨 AI Image Generator
+# 🎨 AI Image Generator
 
-    Generate stunning AI-powered images from text prompts using state-of-the-art models. Choose your model, aspect ratio, and watch your imagination come to life.
+    > "Generate stunning AI-powered images from text prompts using state-of-the-art models. Choose your model, aspect ratio, and watch your imagination come to life."
 
 Highlights
 
