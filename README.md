@@ -41,7 +41,7 @@ bash
 
 Open http://localhost:3000 to start generating images!
 # Features
-🤖 Multiple AI Models
+### 🤖 Multiple AI Models
 
     FLUX.1-dev — High-quality, detailed generations
 
@@ -53,7 +53,7 @@ Open http://localhost:3000 to start generating images!
 
     OpenJourney — Artistic, stylized generations
 
-🎛️ Generation Controls
+### 🎛️ Generation Controls
 
     Text Prompt — Describe your vision in natural language
 
@@ -61,7 +61,7 @@ Open http://localhost:3000 to start generating images!
 
     Aspect Ratio — Choose from Square (1:1), Landscape (16:9), or Portrait (9:16)
 
-🖼️ Gallery Experience
+### 🖼️ Gallery Experience
 
     Loading States — Visual feedback while images generate
 
@@ -69,7 +69,7 @@ Open http://localhost:3000 to start generating images!
 
     Download Support — Save images with a single click
 
-⚡ Performance
+### ⚡ Performance
 
     Serverless API — Next.js API routes for secure model calls
 
@@ -78,7 +78,7 @@ Open http://localhost:3000 to start generating images!
     Error Handling — Graceful failures with user-friendly messages
 
 # ⬇️ Installation
-Requirements
+### Requirements
 
     Node.js 18.0 or higher
 
@@ -86,11 +86,11 @@ Requirements
 
     Hugging Face API key (free tier available)
 
-Environment Setup
-bash
+### Environment Setup
+    bash
 
-# Create a .env.local file in the root directory
-API_KEY=your_huggingface_api_key
+### Create a .env.local file in the root directory
+    API_KEY=your_huggingface_api_key
 
 Development
 bash
@@ -110,7 +110,7 @@ bash
 # Start production server
     npm start
 
-📁 Project Structure
+### 📁 Project Structure
     text
     
     AI-image-gen/
@@ -131,14 +131,14 @@ bash
     ├── public/                   # Static assets
     └── package.json
 
-🛠️ Tech Stack
-Technology	Purpose
-Next.js 15	Full-stack React framework
-TypeScript	Type-safe development
-Tailwind CSS	Styling
-Hugging Face Inference API	AI image generation
-Lucide React	Icons
-🧠 How It Works
+### 🛠️ Tech Stack
+    Technology	Purpose
+    Next.js 15	Full-stack React framework
+    TypeScript	Type-safe development
+    Tailwind CSS	Styling
+    Hugging Face Inference API	AI image generation
+    Lucide React	Icons
+    🧠 How It Works
 
     User submits a prompt — Describe the image you want to generate
 
@@ -150,7 +150,7 @@ Lucide React	Icons
 
     Gallery rendering — Generated images appear in a responsive grid
 
-API Integration
+### API Integration
 
 The application uses Hugging Face's Inference API with the following models:
 
@@ -176,19 +176,19 @@ Each request includes:
 
     Wait_for_model flag for cold starts
 
-🚀 Deployment
+### 🚀 Deployment
 
 The easiest way to deploy this application is using Vercel:
 bash
 
 # Install Vercel CLI
-npm i -g vercel
+    npm i -g vercel
 
 # Deploy
-vercel
+    vercel
 
-Make sure to add your API_KEY environment variable in the Vercel dashboard.
-📝 License
+** Make sure to add your API_KEY environment variable in the Vercel dashboard.
+📝 License **
 
 This project is open source and available under the MIT License.
 
